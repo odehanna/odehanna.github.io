@@ -7,9 +7,14 @@
 
 html{
 	background:#000;
-	border-right: 8px solid #8d7401;
 	height: 100%;
 	
+
+}
+
+body {
+	position: relative;
+	padding: 1px 1px 32px;
 }
 
 #logo{
@@ -50,7 +55,7 @@ margin-right: 10px;
 #connect{
 	
 	position: absolute;
-	top: 700px;
+	bottom: 0px;
 	left:0;
 	
 }
@@ -60,18 +65,7 @@ margin-right: 10px;
 	 width: 24px;
  }
  
- #connectportfolio li{
-display: inline;
-list-style-type: none;
-float: left;
-margin-right: 10px;
-	
-}
-
-#connectportfolio img{
-	width: 24px;
-	
-}
+ 
 nav{
 	position:absolute;
 	top: 10px;
@@ -101,6 +95,7 @@ nav li a{
 
 #portfolio{
 	width: 90%;
+	text-align: center;
 	margin:0 auto;
 }
 
