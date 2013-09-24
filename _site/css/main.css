@@ -1,79 +1,7 @@
-@-moz-viewport{ width: device-width; scale: 1;}
-@-ms-viewport{ width: device-width; scale: 1;}
-@-o-viewport{ width: device-width; scale: 1;}
-@-webkit-viewport{ width: device-width; scale: 1;}
-@viewport{ width: device-width;scale: 1;}
-
-
 html{
 	background:#000;
-	border-right: 8px solid #8d7401;
-	height: 100%;
-	
-}
-
-#logo{
-	margin-top: 400px;
-	margin-left: 30px;
-	
-}
-
-p{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 90%;
-	line-height: 20px;
-	margin-bottom: 30px;
-	color:#FFF;
-	margin-top: 10px;
-	padding-left: 40px;
-	display:block;
-}
-
-@media only screen and (min-width: 30em){
-	p{
-		width: 400px;
 	}
-}
-
-#connect li {
-display: inline;
-list-style-type: none;
-float: left;
-margin-right: 10px;
-}
-
-#connect{
 	
-	position: absolute;
-	top: 700px;
-	left:0;
-	
-}
- #connect img{
-	 width: 24px;
- }
- 
-nav{
-	position:absolute;
-	top: 10px;
-	right: 20px;
-}
-
-nav li{
-	margin: 10px;
-	list-style-type: none;
-	display:inline;
-	float: teft;
-}
-
-nav li a{
-	color:#8d7401;
-	text-decoration:none;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.5rem;
-
-}
-
 #worksmall li{
 	display: inline-block;
 	line-height:20px;
