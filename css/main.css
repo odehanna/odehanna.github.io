@@ -276,18 +276,40 @@ a:active {
 
 .work-list li {
 	display: inline-block;
-	width: 48%;
+	width: 100%;
 }
 
 .work-list figure {
-	display: block;
+	display: inline-block;
 	margin: 0;
 	padding: 10px;
 }
+.work-list img{
+	display:block;
+	width: 100%;
+	max-width: 400px;
+}
 
-.work-list img {
-	display: block;
+/*.work-list .small {
+	display: inline-block;
 	width: 200px;
+}
+
+.work-list .big {
+	display: inline-block;
+	width: 400px;
+}*/
+.work-list .big{
+	display:none;
+}
+
+@media only screen and (min-width: 50em){
+	.work-list .small{
+	display:none;
+}
+.work-list .big{
+	display:block;
+}
 }
 
 .work-list a,
@@ -309,6 +331,12 @@ a:active {
 	border-radius: 6px;
 }
 
+@media only screen and (min-width: 35em){
+	.work-list li{
+		width: 40%;
+	}
+	
+}
 
 .site-footer {
 	padding: 0 0 1rem;
@@ -400,7 +428,7 @@ margin-right: 10px;
  /*nav*/
 
 /*Portfolio*/
-#portfolio{
+/*#portfolio{
 	width: 90%;
 	text-align: center;
 	margin:0 auto;
@@ -420,7 +448,7 @@ margin-right: 10px;
 #portfolio{
 	width: 90%;
 	margin:0 auto;
-}
+}*/
 
 /*#workmed li{
 	display:none;
